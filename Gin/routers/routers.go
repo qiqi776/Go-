@@ -1,8 +1,8 @@
 package routers
 
 import (
-	"GoStudy/handler"
-	"GoStudy/middleware"
+	"gin-project/handler"
+	"gin-project/middleware"
 	"github.com/gin-gonic/gin"
 )
 

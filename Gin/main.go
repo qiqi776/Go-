@@ -1,8 +1,8 @@
 package main
 
 import (
-	"GoStudy/routers"
 	"fmt"
+	"gin-project/routers"
 )
 
 func main() {

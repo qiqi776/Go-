@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"GoStudy/util"
+	"gin-project/util"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"strings"
