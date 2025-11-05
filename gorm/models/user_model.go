@@ -11,6 +11,7 @@ type UserModel struct {
 	Name      string `gorm:"size:16;not null;unique"`
 	Age       int    `gorm:"default:18"`
 	CreatedAt time.Time
+	DeletedAt gorm.DeletedAt `gorm:"index"`
 }
 
 func (u *UserModel) BeforeCreate(tx *gorm.DB) error {
